@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title:
-    "Vanguard Advisory | Business Structuring & Risk Advisory – Philippines",
+    "Shieldcore Advisory | Business Structuring & Risk Advisory – Philippines",
   description:
     "Philippines-based business structuring and risk advisory firm. We design corporate structures that protect wealth, reduce tax exposure, and ensure business risk stays contained for entrepreneurs and high-net-worth individuals.",
   keywords: [
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   openGraph: {
-    title: "Vanguard Advisory | Protect Your Wealth Before Problems Begin",
+    title: "Shieldcore Advisory | Protect Your Wealth Before Problems Begin",
     description:
       "Premium business structuring and risk advisory in the Philippines. Corporate structuring, tax optimization, and asset protection for serious entrepreneurs.",
     images: [{ url: "/og-image.png", width: 1200, height: 630 }],
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vanguard Advisory | Business Structuring & Risk Advisory",
+    title: "Shieldcore Advisory | Business Structuring & Risk Advisory",
     description:
       "We design business structures that protect wealth, reduce tax exposure, and ensure business risk stays contained.",
     images: ["/og-image.png"],

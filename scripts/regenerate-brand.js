@@ -16,7 +16,7 @@ const svgFavicon = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512
         fill="none" stroke="url(#shieldGrad)" stroke-width="18" stroke-linejoin="round"/>
   <path d="M256 108 L378 168 L378 284 C378 350 326 398 256 426 C186 398 134 350 134 284 L134 168 Z"
         fill="#c9a84c" opacity="0.1"/>
-  <text x="256" y="318" text-anchor="middle" font-family="Georgia,serif" font-size="210" font-weight="700" fill="#c9a84c">V</text>
+  <text x="256" y="318" text-anchor="middle" font-family="Georgia,serif" font-size="210" font-weight="700" fill="#c9a84c">S</text>
 </svg>`;
 
 async function generate() {
@@ -36,7 +36,7 @@ async function generate() {
     path.join(publicDir, "favicon-180x180.png"),
     path.join(publicDir, "apple-touch-icon.png"),
   );
-  console.log("Favicons regenerated with V");
+  console.log("Favicons regenerated with S");
 
   // OG Image
   const ogSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
@@ -51,8 +51,8 @@ async function generate() {
     <line x1="0" y1="630" x2="1200" y2="630" stroke="#c9a84c" stroke-width="4"/>
     <path d="M200 140 L280 170 L280 250 C280 290 250 310 200 326 C150 310 120 290 120 250 L120 170 Z"
           fill="none" stroke="#c9a84c" stroke-width="6" stroke-linejoin="round" opacity="0.8"/>
-    <text x="200" y="268" text-anchor="middle" font-family="Georgia,serif" font-size="80" font-weight="700" fill="#c9a84c">V</text>
-    <text x="320" y="220" font-family="Georgia,serif" font-size="48" font-weight="600" fill="#f5f0e8">Vanguard</text>
+    <text x="200" y="268" text-anchor="middle" font-family="Georgia,serif" font-size="80" font-weight="700" fill="#c9a84c">S</text>
+    <text x="320" y="220" font-family="Georgia,serif" font-size="48" font-weight="600" fill="#f5f0e8">Shieldcore</text>
     <text x="320" y="265" font-family="Arial,sans-serif" font-size="18" font-weight="600" fill="#c9a84c" letter-spacing="6">ADVISORY</text>
     <line x1="100" y1="340" x2="1100" y2="340" stroke="#2a2a3a" stroke-width="1"/>
     <text x="600" y="410" text-anchor="middle" font-family="Georgia,serif" font-size="38" fill="#f5f0e8">Protect Your Wealth</text>
@@ -63,7 +63,7 @@ async function generate() {
     .resize(1200, 630)
     .png()
     .toFile(path.join(publicDir, "og-image.png"));
-  console.log("OG image regenerated with Vanguard Advisory");
+  console.log("OG image regenerated with Shieldcore Advisory");
 }
 
 generate().catch(console.error);

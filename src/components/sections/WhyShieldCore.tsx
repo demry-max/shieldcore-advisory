@@ -43,15 +43,15 @@ const stats = [
   { value: "₱2B+", label: "Assets Under Advisory" },
 ];
 
-export default function WhyVanguard() {
+export default function WhyShieldcore() {
   return (
-    <Section id="why-vanguard">
+    <Section id="why-shieldcore">
       <div className="text-center">
         <SectionLabel>Our Difference</SectionLabel>
         <SectionHeading className="mx-auto">
           Why Serious Business Owners
           <br />
-          Choose Vanguard
+          Choose Shieldcore
         </SectionHeading>
         <SectionDescription className="mx-auto">
           We bring a level of depth, integration, and commitment that

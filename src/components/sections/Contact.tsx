@@ -59,7 +59,7 @@ export default function Contact() {
                   Email
                 </p>
                 <p className="text-sm text-foreground">
-                  consult@vanguardadvisory.ph
+                  consult@shieldcoreadvisory.ph
                 </p>
               </div>
             </div>

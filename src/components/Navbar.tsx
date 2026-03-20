@@ -8,7 +8,7 @@ import Button from "@/components/ui/Button";
 const navLinks = [
   { label: "About", href: "#about" },
   { label: "Services", href: "#services" },
-  { label: "Why Vanguard", href: "#why-vanguard" },
+  { label: "Why Shieldcore", href: "#why-shieldcore" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -38,12 +38,12 @@ export default function Navbar() {
         <a href="#" className="group flex items-center gap-2.5">
           <img
             src="/favicon.svg"
-            alt="Vanguard Advisory"
+            alt="Shieldcore Advisory"
             className="h-7 w-7 transition-transform duration-300 group-hover:scale-110"
           />
           <div className="flex flex-col">
             <span className="text-lg font-bold tracking-wide text-foreground">
-              Vanguard
+              Shieldcore
             </span>
             <span className="-mt-1 text-[10px] font-medium uppercase tracking-[0.25em] text-gold">
               Advisory
