@@ -16,7 +16,7 @@ const navGroups = [
     links: [
       { label: "About", href: "#about" },
       { label: "Services", href: "#services" },
-      { label: "Why Shieldcore", href: "#why-shieldcore" },
+      { label: "Why ShieldCore", href: "#why-shieldcore" },
       { label: "Contact", href: "#contact" },
     ],
   },
@@ -43,12 +43,12 @@ export default function Footer() {
             <a href="#" className="group flex items-center gap-2.5">
               <img
                 src="/favicon.svg"
-                alt="Shieldcore Advisory"
+                alt="ShieldCore Advisory"
                 className="h-6 w-6"
               />
               <div className="flex flex-col">
                 <span className="text-base font-bold tracking-wide text-foreground">
-                  Shieldcore
+                  ShieldCore
                 </span>
                 <span className="-mt-1 text-[9px] font-medium uppercase tracking-[0.25em] text-gold">
                   Advisory
@@ -87,7 +87,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t border-border/20 pt-8 sm:flex-row">
           <p className="text-xs text-muted/60">
-            &copy; {new Date().getFullYear()} Shieldcore Advisory. All rights
+            &copy; {new Date().getFullYear()} ShieldCore Advisory. All rights
             reserved.
           </p>
           <p className="text-xs text-muted/40">

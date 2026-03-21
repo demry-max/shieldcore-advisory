@@ -5,7 +5,7 @@ import Hero from "@/components/sections/Hero";
 import Problem from "@/components/sections/Problem";
 import Solution from "@/components/sections/Solution";
 import Services from "@/components/sections/Services";
-import WhyShieldcore from "@/components/sections/WhyShieldCore";
+import WhyShieldCore from "@/components/sections/WhyShieldCore";
 import About from "@/components/sections/About";
 import CTA from "@/components/sections/CTA";
 import Contact from "@/components/sections/Contact";
@@ -25,7 +25,7 @@ export default function Home() {
         <Divider />
         <Services />
         <Divider />
-        <WhyShieldcore />
+        <WhyShieldCore />
         <Divider />
         <About />
         <Divider />

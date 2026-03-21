@@ -45,7 +45,7 @@ export default function Solution() {
         {/* Left Content */}
         <div>
           <SectionLabel>Our Methodology</SectionLabel>
-          <SectionHeading>The Shieldcore System</SectionHeading>
+          <SectionHeading>The ShieldCore System</SectionHeading>
           <SectionDescription>
             We create integrated protection systems designed to prevent problems
             before they emerge. Built specifically for the Philippine business
@@ -58,7 +58,7 @@ export default function Solution() {
             <div className="relative aspect-video overflow-hidden border border-border/40 bg-surface">
               <iframe
                 src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                title="How Shieldcore Advisory protects Philippine businesses"
+                title="How ShieldCore Advisory protects Philippine businesses"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
                 className="absolute inset-0 h-full w-full"

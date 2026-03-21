@@ -43,7 +43,7 @@ const stats = [
   { value: "₱2B+", label: "Assets Under Advisory" },
 ];
 
-export default function WhyShieldcore() {
+export default function WhyShieldCore() {
   return (
     <Section id="why-shieldcore">
       <div className="text-center">
@@ -51,11 +51,12 @@ export default function WhyShieldcore() {
         <SectionHeading className="mx-auto">
           Why Serious Business Owners
           <br />
-          Choose Shieldcore
+          Choose ShieldCore
         </SectionHeading>
         <SectionDescription className="mx-auto">
           We bring a level of depth, integration, and commitment that
-          distinguishes our advisory from conventional Philippine consultancy firms.
+          distinguishes our advisory from conventional Philippine consultancy
+          firms.
         </SectionDescription>
       </div>
 

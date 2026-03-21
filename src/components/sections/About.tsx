@@ -53,7 +53,7 @@ export default function About() {
         and Financial Expertise
       </SectionHeading>
       <SectionDescription>
-        Shieldcore Advisory brings together Philippine business strategy, tax
+        ShieldCore Advisory brings together Philippine business strategy, tax
         intelligence, and legal structuring to help entrepreneurs and foreign
         investors operate with confidence and protection in the Philippine
         market.

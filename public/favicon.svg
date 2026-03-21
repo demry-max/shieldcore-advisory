@@ -10,5 +10,5 @@
         fill="none" stroke="url(#shieldGrad)" stroke-width="18" stroke-linejoin="round"/>
   <path d="M256 108 L378 168 L378 284 C378 350 326 398 256 426 C186 398 134 350 134 284 L134 168 Z"
         fill="#c9a84c" opacity="0.1"/>
-  <text x="256" y="318" text-anchor="middle" font-family="Georgia,serif" font-size="210" font-weight="700" fill="#c9a84c">S</text>
+  <text x="256" y="318" text-anchor="middle" font-family="Georgia,serif" font-size="180" font-weight="700" fill="#c9a84c">SC</text>
 </svg>
