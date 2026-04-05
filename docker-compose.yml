@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    container_name: shieldcore-app
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3100:3000"
