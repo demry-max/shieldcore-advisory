@@ -53,7 +53,7 @@ const services = [
     icon: Users,
     title: "Family Business Structuring",
     description:
-      "Design long-term ownership and continuity systems for Filipino family businesses and generational enterprises.",
+      "Design long-term ownership and continuity systems for foreign-owned family businesses and generational enterprises.",
     detail: "Governance, succession, and transition frameworks.",
   },
 ];

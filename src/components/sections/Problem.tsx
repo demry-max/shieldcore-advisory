@@ -46,7 +46,7 @@ export default function Problem() {
             Philippines Are Structurally Exposed
           </SectionHeading>
           <SectionDescription>
-            Many Filipino entrepreneurs and foreign investors focus on growth but
+            Many foreign entrepreneurs and investors focus on growth but
             overlook the structural risks that can silently erode wealth. Tax
             exposure from the BIR, legal claims under the Revised Corporation
             Code, partner disputes, or even business success itself can threaten
