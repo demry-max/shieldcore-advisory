@@ -57,7 +57,7 @@ export default function Solution() {
           <motion.div variants={fadeInUp} className="mt-8">
             <div className="relative aspect-video overflow-hidden border border-border/40 bg-surface">
               <iframe
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                src="https://www.youtube.com/embed/ayE8JNFWrh0"
                 title="How ShieldCore Advisory protects Philippine businesses"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
