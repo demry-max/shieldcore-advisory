@@ -94,29 +94,6 @@ async function generateAll() {
   await sharp(Buffer.from(ctaSvg)).resize(1200, 600).jpeg({ quality: 80 }).toFile(path.join(publicDir, "cta-bg.jpg"));
   console.log("Generated cta-bg.jpg");
 
-  // 5. Team placeholder images — professional abstract avatars
-  const colors = [
-    { name: "demry", accent: "#c9a84c", letter: "D" },
-    { name: "joma", accent: "#8aacc9", letter: "J" },
-    { name: "james", accent: "#9ac98a", letter: "JA" },
-  ];
-  for (const { name, accent, letter } of colors) {
-    const avatarSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
-      <defs>
-        <linearGradient id="av" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" style="stop-color:#1a1a24"/>
-          <stop offset="100%" style="stop-color:#12121c"/>
-        </linearGradient>
-      </defs>
-      <rect width="400" height="400" fill="url(#av)"/>
-      <circle cx="200" cy="200" r="120" fill="none" stroke="${accent}" stroke-width="2" opacity="0.2"/>
-      <circle cx="200" cy="200" r="80" fill="${accent}" opacity="0.08"/>
-      <text x="200" y="218" text-anchor="middle" font-family="Georgia,serif" font-size="${letter.length > 1 ? 60 : 80}" font-weight="600" fill="${accent}" opacity="0.7">${letter}</text>
-    </svg>`;
-    await sharp(Buffer.from(avatarSvg)).resize(400, 400).jpeg({ quality: 85 }).toFile(path.join(publicDir, `team-${name}.jpg`));
-    console.log(`Generated team-${name}.jpg`);
-  }
-
   // 6. Service icon backgrounds
   const serviceBgSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
     <rect width="600" height="400" fill="#12121c"/>

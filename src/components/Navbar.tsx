@@ -6,7 +6,6 @@ import { Menu, X } from "lucide-react";
 import Button from "@/components/ui/Button";
 
 const navLinks = [
-  { label: "About", href: "#about" },
   { label: "Services", href: "#services" },
   { label: "Why ShieldCore", href: "#why-shieldcore" },
   { label: "Contact", href: "#contact" },

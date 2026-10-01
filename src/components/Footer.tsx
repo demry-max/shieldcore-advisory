@@ -14,7 +14,6 @@ const navGroups = [
   {
     title: "Company",
     links: [
-      { label: "About", href: "#about" },
       { label: "Services", href: "#services" },
       { label: "Why ShieldCore", href: "#why-shieldcore" },
       { label: "Contact", href: "#contact" },
