@@ -53,23 +53,29 @@ export default function Solution() {
             legal architecture into a unified defense framework.
           </SectionDescription>
 
-          {/* Video embed placeholder */}
+          {/* Self-hosted ShieldCore introduction */}
           <motion.div variants={fadeInUp} className="mt-8">
             <div className="relative aspect-video overflow-hidden border border-border/40 bg-surface">
-              <iframe
-                src="https://www.youtube.com/embed/ayE8JNFWrh0"
-                title="How ShieldCore Advisory protects Philippine businesses"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
+              <video
+                controls
+                playsInline
+                preload="metadata"
+                poster="/videos/shieldcore-intro-poster.jpg"
+                aria-label="ShieldCore Advisory introduction"
+                title="ShieldCore Advisory introduction"
                 className="absolute inset-0 h-full w-full"
-              />
-              <div className="pointer-events-none absolute bottom-0 left-0 right-0 bg-gradient-to-t from-background/80 to-transparent p-4">
-                <p className="text-xs font-medium text-gold/70">
-                  Watch: How Business Structuring Protects Philippine
-                  Entrepreneurs
-                </p>
-              </div>
+              >
+                <source src="/videos/shieldcore-intro.webm" type="video/webm" />
+                <source src="/videos/shieldcore-intro.mp4" type="video/mp4" />
+                Your browser does not support embedded video.{" "}
+                <a href="/videos/shieldcore-intro.mp4">
+                  Download the ShieldCore Advisory introduction.
+                </a>
+              </video>
             </div>
+            <p className="mt-3 text-xs font-medium text-gold/70">
+              Watch: How Business Structuring Protects Philippine Entrepreneurs
+            </p>
           </motion.div>
 
           <motion.div variants={fadeInUp} className="mt-6">
